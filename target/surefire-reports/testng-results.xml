@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-24T07:44:17 CEST" name="Suite" finished-at="2023-10-24T07:48:54 CEST" duration-ms="276996">
+    <groups>
+    </groups>
+    <test started-at="2023-10-24T07:44:17 CEST" name="Test" finished-at="2023-10-24T07:48:54 CEST" duration-ms="276996">
+      <class name="testcases.SPSearchFlightTest">
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.SPSearchFlightTest@303cf2ba]" started-at="2023-10-24T07:46:25 CEST" name="startup" finished-at="2023-10-24T07:46:36 CEST" duration-ms="11215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="SearchFlightRoundTrip()[pri:1, instance:testcases.SPSearchFlightTest@303cf2ba]" started-at="2023-10-24T07:46:36 CEST" name="SearchFlightRoundTrip" finished-at="2023-10-24T07:47:09 CEST" duration-ms="32685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFlightRoundTrip -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SPSearchFlightTest@303cf2ba]" started-at="2023-10-24T07:47:09 CEST" name="close" finished-at="2023-10-24T07:47:10 CEST" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.SPSearchFlightTest@303cf2ba]" started-at="2023-10-24T07:47:10 CEST" name="startup" finished-at="2023-10-24T07:47:22 CEST" duration-ms="11972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="SearchFlightOnewWayTrip()[pri:2, instance:testcases.SPSearchFlightTest@303cf2ba]" started-at="2023-10-24T07:47:22 CEST" name="SearchFlightOnewWayTrip" finished-at="2023-10-24T07:48:53 CEST" duration-ms="90588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFlightOnewWayTrip -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SPSearchFlightTest@303cf2ba]" started-at="2023-10-24T07:48:53 CEST" name="close" finished-at="2023-10-24T07:48:54 CEST" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.SPSearchFlightTest -->
+      <class name="testcases.SPLoginTest">
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.SPLoginTest@1033576a]" started-at="2023-10-24T07:45:02 CEST" name="startup" finished-at="2023-10-24T07:45:07 CEST" duration-ms="4126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="LoginwithValidCredentials()[pri:1, instance:testcases.SPLoginTest@1033576a]" started-at="2023-10-24T07:45:07 CEST" name="LoginwithValidCredentials" finished-at="2023-10-24T07:45:22 CEST" duration-ms="15895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithValidCredentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SPLoginTest@1033576a]" started-at="2023-10-24T07:45:23 CEST" name="close" finished-at="2023-10-24T07:45:24 CEST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.SPLoginTest@1033576a]" started-at="2023-10-24T07:45:24 CEST" name="startup" finished-at="2023-10-24T07:45:36 CEST" duration-ms="12052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="LoginwithInValidPassword()[pri:2, instance:testcases.SPLoginTest@1033576a]" started-at="2023-10-24T07:45:36 CEST" name="LoginwithInValidPassword" finished-at="2023-10-24T07:45:43 CEST" duration-ms="7518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithInValidPassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SPLoginTest@1033576a]" started-at="2023-10-24T07:45:44 CEST" name="close" finished-at="2023-10-24T07:45:44 CEST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.SPLoginTest@1033576a]" started-at="2023-10-24T07:45:44 CEST" name="startup" finished-at="2023-10-24T07:45:56 CEST" duration-ms="12018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="LoginwithInValidEMail()[pri:3, instance:testcases.SPLoginTest@1033576a]" started-at="2023-10-24T07:45:56 CEST" name="LoginwithInValidEMail" finished-at="2023-10-24T07:46:04 CEST" duration-ms="7591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithInValidEMail -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SPLoginTest@1033576a]" started-at="2023-10-24T07:46:04 CEST" name="close" finished-at="2023-10-24T07:46:05 CEST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.SPLoginTest@1033576a]" started-at="2023-10-24T07:46:05 CEST" name="startup" finished-at="2023-10-24T07:46:17 CEST" duration-ms="11911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="LoginwithInValidCredentials()[pri:4, instance:testcases.SPLoginTest@1033576a]" started-at="2023-10-24T07:46:17 CEST" name="LoginwithInValidCredentials" finished-at="2023-10-24T07:46:24 CEST" duration-ms="7295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithInValidCredentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SPLoginTest@1033576a]" started-at="2023-10-24T07:46:24 CEST" name="close" finished-at="2023-10-24T07:46:25 CEST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.SPLoginTest -->
+      <class name="testcases.SPSignUpTest">
+        <test-method is-config="true" signature="startup()[pri:0, instance:testcases.SPSignUpTest@cc43f62]" started-at="2023-10-24T07:44:17 CEST" name="startup" finished-at="2023-10-24T07:44:33 CEST" duration-ms="16001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="Signup()[pri:1, instance:testcases.SPSignUpTest@cc43f62]" started-at="2023-10-24T07:44:33 CEST" name="Signup" finished-at="2023-10-24T07:45:01 CEST" duration-ms="28615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SPSignUpTest@cc43f62]" started-at="2023-10-24T07:45:02 CEST" name="close" finished-at="2023-10-24T07:45:02 CEST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.SPSignUpTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

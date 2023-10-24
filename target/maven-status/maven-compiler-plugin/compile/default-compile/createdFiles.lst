@@ -1,0 +1,7 @@
+pageObjects\SPSearchFlightPage.class
+pageObjects\SPSelectFlightPage.class
+utilities\ExtentReport.class
+pageObjects\SPSignUpPage.class
+pageObjects\SPLoginPage.class
+pageObjects\SPPassengerDetailsPage.class
+utilities\SPUtilityPgm.class
