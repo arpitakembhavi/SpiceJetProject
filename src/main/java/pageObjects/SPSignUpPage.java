@@ -95,7 +95,7 @@ public class SPSignUpPage extends SPUtilityPgm{
 		submitBtn.click();
 	}
 
-	//Click on SlelctTermsConditions Link
+	//Click on SelectTermsConditions Link
 	public void SelectTermsConditions() {
 		wait.until(ExpectedConditions.elementToBeClickable(termsCheckbox));
 		termsCheckbox.click();
